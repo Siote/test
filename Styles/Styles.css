@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+body{
+    font-size: 18px;
+    font: optional;
+    color: white;
+    background-color: #0D0017;
+    
+}
+
+.navigation {
+    font-size: 30px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.titulo_1{
+    font-size: 60px;
+    padding-top: 50px;
+    position: relative;
+    left: 30%;
+}
+
+.navigation__menu {
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------- */
+main{
+    padding-top: 20px;
+
+}
+/* -------------------------------------------------- 
+animacion estrellas
+-----------------------------------------------------*/
+.estrella_1{
+    border-radius: 50%;
+    background-color: white;
+    opacity: .4;
+    position: absolute;
+    bottom: -5%;   
+    animation: estrella_1 2s linear infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}    
+.estrella_1:nth-child(1){
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    animation-duration: 2.2s;
+    animation-delay: 1s;
+}
+.estrella_1:nth-child(2){
+    width: 55px;
+    height: 55px;
+    left: 50%;
+    animation-duration: 1.7s;
+    animation-delay: 6.5s;
+}
+.estrella_1:nth-child(3){
+    width: 45px;
+    height: 45px;
+    left: 75%;
+    animation-duration: 2.5s;
+    animation-delay: 3s;
+}
+.estrella_1:nth-child(4){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.estrella_1:nth-child(5){
+    width: 10px;
+    height: 10px;
+    left: 40%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.estrella_1:nth-child(6){
+    width: 15px;
+    height: 15px;
+    left: 57%;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+.estrella_1:nth-child(7){
+    width: 5px;
+    height: 5px;
+    left: 65%;
+    animation-duration: 6s;
+    animation-delay: 4.5s;
+}
+.estrella_1:nth-child(8){
+    width: 35px;
+    height: 35px;
+    left: 80%;
+    animation-duration: 3.6s;
+    animation-delay: 2.5s;
+}
+@keyframes estrella_1 {
+    0%       {
+        bottom: 0%;
+        opacity: 0;
+    }
+    50%     {
+        opacity: 1;
+    }
+    100%    {
+        bottom: 100%;
+        opacity: 0;       
+    }
+}
